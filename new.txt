@@ -1,0 +1,81 @@
+Q.1 Does logical operators in C language are evaluated with short circuit? 
+a.)1
+b.)0
+c.)Depends on the compiler
+d.)Depends on the standard
+
+       Answer: 0
+
+Q.2 Which among the following is NOT a logical or relational operator? 
+a.) !=
+b.) ==
+c.)||
+d.) =
+
+       Answer: 0
+
+Q.3 Relational operators cannot be used on: 
+a.)structure
+b.)long
+c.)strings
+d.)float
+
+       Answer: 0
+
+Q.4 Which is an indirection operator among the following? 
+a.)&
+b.) *
+c.)->
+d.) .
+
+       Answer: 0
+
+Q.5 Which of the following does not initialize ptr to null (assuming variable declaration of a as int     a=0;? 
+a.)int *ptr = &a;
+b.)int *ptr = &a – &a;
+c.)int *ptr = a – a;
+d.)All of the mentioned
+
+       Answer: 0
+
+Q.6 Different ways to initialize an array with all elements as zero are 
+a.)int array[5] = {};
+b.)int array[5] = {0};
+c.) int a = 0, b = 0, c = 0;
+d.)All of the mentioned
+
+       Answer: 0
+
+Q.7  The elements in the array of the following code are:  int array[5] = {5}; 
+a.) 5, 5, 5, 5, 5
+b.)5, 0, 0, 0, 0
+c.)c) 5, (garbage), (garbage), (garbage), (garbage)
+
+d.)5, (garbage), (garbage), (garbage), (garbage)
+
+       Answer: 1
+
+Q.8  Which of the following declaration is illegal? 
+a.) int a = 0, b = 1, c = 2;
+b.) int size = 3;
+c.)int size = 3;
+d.)All of the mentioned
+
+       Answer: 1
+
+Q.9 Which of the following file extensions are accepted with #include? 
+a.).h
+b.).in
+c.).com
+d.)All of the mentioned
+
+       Answer: 1
+
+Q.10 Which of the following names for files not accepted? 
+a.)header.h.h
+b.)123header.h
+c.)_head_er.h
+d.)None of the mentioned
+
+       Answer: 1
+

@@ -1,0 +1,20 @@
+#generator h2
+{
+	text-align: center;
+}
+
+#sub,#mcq{
+	width: 30%;
+	}
+.buttton{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+#subj,#mcqq{
+	display: none;
+}
+#bottonn,#bottonn2{
+	margin-top: 15px;
+
+}

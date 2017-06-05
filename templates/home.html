@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if form.errors %}
+<p>Your username and password didn't match. Please try again.</p>
+{% endif %}
+<div class="container">
+<div class="row">
+
+<div class="jumbotron">
+  <center><h1>Hello</h1>
+  <p>Welcome to Questionator</p></center>
+</div>
+<div class="jumbotron" id="generator">
+<h2>Generate Question Paper</h2><br>
+<div class="buttton">
+	<button id="sub" class="btn btn-success btn-sm" onclick="sub()">SUBJECTIVE</button>
+	<button id="mcq" class="btn btn-success btn-sm" onclick="mcq()">MCQ PAPER</button>
+</div>
+<form method="post" action="{% url 'download' %}" id="subj">
+{% csrf_token %}
+{{form.label_tag}}
+{{form}}
+
+
+<center><input class="btn btn-success btn-sm" type="submit" id="bottonn2" value="Generate" /></center>
+
+
+</form>
+<form method="post" action="{% url 'mcq' %}" id="mcqq">
+{% csrf_token %}
+{{form2.label_tag}}
+{{form2}}
+
+
+<center><input class="btn btn-success btn-sm" type="submit" id="bottonn" value="Generate" /></center>
+
+
+</form>
+</div>
+
+</div>
+</div>
+{% endblock %}
